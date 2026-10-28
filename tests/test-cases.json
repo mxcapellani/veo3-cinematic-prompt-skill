@@ -1,0 +1,341 @@
+[
+  {
+    "id": "T01",
+    "category": "simple",
+    "complexity": "simple",
+    "input": "Um homem está caminhando por uma praia ao pôr do sol.",
+    "expected": [
+      "subject, environment, action, camera, lighting and ambient sound",
+      "no unsolicited dialogue"
+    ],
+    "original_output": null,
+    "skill_output": null,
+    "score": null,
+    "status": "not_executed",
+    "evidence": [],
+    "notes": "Use identical context, references and supplied speech in both environments."
+  },
+  {
+    "id": "T02",
+    "category": "dialogue",
+    "complexity": "intermediate",
+    "input": "Uma mulher entra em um ônibus no Rio de Janeiro e diz: 'Moço, esse ônibus passa na Central?'",
+    "expected": [
+      "exact supplied line",
+      "SPOKEN TEXT (Portuguese - BR)",
+      "speaker and lip-sync direction",
+      "English technical content"
+    ],
+    "original_output": null,
+    "skill_output": null,
+    "score": null,
+    "status": "not_executed",
+    "evidence": [],
+    "notes": "Use identical context, references and supplied speech in both environments."
+  },
+  {
+    "id": "T03",
+    "category": "drama",
+    "complexity": "intermediate",
+    "input": "Um homem recebe uma notícia inesperada durante uma noite chuvosa.",
+    "expected": [
+      "readable performance",
+      "motivated dramatic light",
+      "rain sound",
+      "no invented news content"
+    ],
+    "original_output": null,
+    "skill_output": null,
+    "score": null,
+    "status": "not_executed",
+    "evidence": [],
+    "notes": "Use identical context, references and supplied speech in both environments."
+  },
+  {
+    "id": "T04",
+    "category": "advertisement",
+    "complexity": "intermediate",
+    "input": "Uma câmera revela lentamente um carro esportivo estacionado em um estúdio escuro.",
+    "expected": [
+      "controlled reveal",
+      "coherent reflections",
+      "car remains stationary",
+      "no invented brand claims"
+    ],
+    "original_output": null,
+    "skill_output": null,
+    "score": null,
+    "status": "not_executed",
+    "evidence": [],
+    "notes": "Use identical context, references and supplied speech in both environments."
+  },
+  {
+    "id": "T05",
+    "category": "camera-conflict",
+    "complexity": "regression",
+    "input": "Corrija: câmera Static e Orbit simultaneamente, sem cortes.",
+    "expected": [
+      "resolve simultaneous conflict",
+      "continuous shot",
+      "preserve purpose"
+    ],
+    "original_output": null,
+    "skill_output": null,
+    "score": null,
+    "status": "not_executed",
+    "evidence": [],
+    "notes": "Use identical context, references and supplied speech in both environments."
+  },
+  {
+    "id": "T06",
+    "category": "sequence",
+    "complexity": "advanced",
+    "input": "Crie três cenas de uma pessoa entrando num café, encontrando alguém e iniciando conversa.",
+    "expected": [
+      "three independent blocks",
+      "wardrobe/prop/geography anchors",
+      "ordered states",
+      "no fabricated spoken line"
+    ],
+    "original_output": null,
+    "skill_output": null,
+    "score": null,
+    "status": "not_executed",
+    "evidence": [],
+    "notes": "Use identical context, references and supplied speech in both environments."
+  },
+  {
+    "id": "T07",
+    "category": "verbatim",
+    "complexity": "regression",
+    "input": "A pessoa fala exatamente: “Hoje eu vim aprender, não fingir que já sei.”",
+    "expected": [
+      "exact quotation",
+      "no translation",
+      "speaker attribution"
+    ],
+    "original_output": null,
+    "skill_output": null,
+    "score": null,
+    "status": "not_executed",
+    "evidence": [],
+    "notes": "Use identical context, references and supplied speech in both environments."
+  },
+  {
+    "id": "T08",
+    "category": "multiple-speakers",
+    "complexity": "advanced",
+    "input": "Ana diz “Você chegou.” Bruno responde “Cheguei agora.”",
+    "expected": [
+      "two attributed exact lines",
+      "no speaker swap",
+      "turn order"
+    ],
+    "original_output": null,
+    "skill_output": null,
+    "score": null,
+    "status": "not_executed",
+    "evidence": [],
+    "notes": "Use identical context, references and supplied speech in both environments."
+  },
+  {
+    "id": "T09",
+    "category": "silence",
+    "complexity": "regression",
+    "input": "Uma biblioteca em silêncio absoluto, sem voz, efeitos ou música.",
+    "expected": [
+      "no added ambience contrary to silence",
+      "clear visual action"
+    ],
+    "original_output": null,
+    "skill_output": null,
+    "score": null,
+    "status": "not_executed",
+    "evidence": [],
+    "notes": "Use identical context, references and supplied speech in both environments."
+  },
+  {
+    "id": "T10",
+    "category": "ambience-only",
+    "complexity": "intermediate",
+    "input": "Chuva na janela, somente áudio ambiente, sem música e sem fala.",
+    "expected": [
+      "rain bed",
+      "no music",
+      "no speech"
+    ],
+    "original_output": null,
+    "skill_output": null,
+    "score": null,
+    "status": "not_executed",
+    "evidence": [],
+    "notes": "Use identical context, references and supplied speech in both environments."
+  },
+  {
+    "id": "T11",
+    "category": "duration-conflict",
+    "complexity": "error",
+    "input": "Esta fala de 45 palavras precisa caber em dois segundos sem alteração.",
+    "expected": [
+      "expose time conflict",
+      "do not silently shorten",
+      "offer material alternatives"
+    ],
+    "original_output": null,
+    "skill_output": null,
+    "score": null,
+    "status": "not_executed",
+    "evidence": [],
+    "notes": "Use identical context, references and supplied speech in both environments."
+  },
+  {
+    "id": "T12",
+    "category": "continuous",
+    "complexity": "regression",
+    "input": "Um único plano contínuo acompanhando uma pessoa entrando num quarto; sem cortes ou transições.",
+    "expected": [
+      "no montage",
+      "continuous camera path",
+      "ordered entry"
+    ],
+    "original_output": null,
+    "skill_output": null,
+    "score": null,
+    "status": "not_executed",
+    "evidence": [],
+    "notes": "Use identical context, references and supplied speech in both environments."
+  },
+  {
+    "id": "T13",
+    "category": "missing-reference",
+    "complexity": "error",
+    "input": "Reproduza a imagem que não foi anexada.",
+    "expected": [
+      "request image",
+      "do not claim visual observation"
+    ],
+    "original_output": null,
+    "skill_output": null,
+    "score": null,
+    "status": "not_executed",
+    "evidence": [],
+    "notes": "Use identical context, references and supplied speech in both environments."
+  },
+  {
+    "id": "T14",
+    "category": "stylized",
+    "complexity": "intermediate",
+    "input": "Uma raposa de animação em aquarela atravessa um jardim.",
+    "expected": [
+      "respect stylization",
+      "do not impose photorealism",
+      "coherent motion"
+    ],
+    "original_output": null,
+    "skill_output": null,
+    "score": null,
+    "status": "not_executed",
+    "evidence": [],
+    "notes": "Use identical context, references and supplied speech in both environments."
+  },
+  {
+    "id": "T15",
+    "category": "unknown-platform",
+    "complexity": "error",
+    "input": "Adapte para um gerador desconhecido com parâmetros não documentados.",
+    "expected": [
+      "portable text",
+      "no invented proprietary syntax",
+      "state uncertainty"
+    ],
+    "original_output": null,
+    "skill_output": null,
+    "score": null,
+    "status": "not_executed",
+    "evidence": [],
+    "notes": "Use identical context, references and supplied speech in both environments."
+  },
+  {
+    "id": "T16",
+    "category": "variations",
+    "complexity": "advanced",
+    "input": "Três versões: documental, dramática e publicitária, preservando esta ação e fala anterior.",
+    "expected": [
+      "same prerequisite context in both environments",
+      "three distinct treatments",
+      "fixed dialogue preserved"
+    ],
+    "original_output": null,
+    "skill_output": null,
+    "score": null,
+    "status": "not_executed",
+    "evidence": [],
+    "notes": "Use identical context, references and supplied speech in both environments."
+  },
+  {
+    "id": "T17",
+    "category": "quantity-format",
+    "complexity": "regression",
+    "input": "Entregue somente um prompt final em inglês, com a fala “Tudo certo.” em português.",
+    "expected": [
+      "one block",
+      "no external commentary",
+      "exact dialogue"
+    ],
+    "original_output": null,
+    "skill_output": null,
+    "score": null,
+    "status": "not_executed",
+    "evidence": [],
+    "notes": "Use identical context, references and supplied speech in both environments."
+  },
+  {
+    "id": "T18",
+    "category": "reference",
+    "complexity": "advanced",
+    "input": "Use a imagem A para personagem e B para ambiente, mantendo roupa de A.",
+    "expected": [
+      "actual accessible images required",
+      "roles separated",
+      "no identity mixing"
+    ],
+    "original_output": null,
+    "skill_output": null,
+    "score": null,
+    "status": "not_executed",
+    "evidence": [],
+    "notes": "Use identical context, references and supplied speech in both environments."
+  },
+  {
+    "id": "T19",
+    "category": "render-claim",
+    "complexity": "error",
+    "input": "Você já renderizou o vídeo?",
+    "expected": [
+      "do not claim rendering without tool execution"
+    ],
+    "original_output": null,
+    "skill_output": null,
+    "score": null,
+    "status": "not_executed",
+    "evidence": [],
+    "notes": "Use identical context, references and supplied speech in both environments."
+  },
+  {
+    "id": "T20",
+    "category": "prop-continuity",
+    "complexity": "advanced",
+    "input": "Uma pessoa segura um caderno na mão esquerda, abre a porta e entra, sem trocar de roupa.",
+    "expected": [
+      "prop ownership stable",
+      "plausible hand/door action",
+      "wardrobe unchanged"
+    ],
+    "original_output": null,
+    "skill_output": null,
+    "score": null,
+    "status": "not_executed",
+    "evidence": [],
+    "notes": "Use identical context, references and supplied speech in both environments."
+  }
+]
